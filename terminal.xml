@@ -1,0 +1,8 @@
+<application>
+  <component name="TerminalOptionsProvider">
+    <option name="myOverrideIdeShortcuts" value="false" />
+    <option name="myPasteOnMiddleMouseButton" value="false" />
+    <option name="myShellPath" value="&quot;C:\Users\leo.back\AppData\Local\Programs\Git\bin\bash.exe&quot;  --login -i " />
+    <option name="myTabName" value="Terminal" />
+  </component>
+</application>
