@@ -4,7 +4,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="rc" value="import React from 'react';&#10;import css from './$TM_FILENAME_BASE$.scss';&#10;&#10;interface $TM_FILENAME_BASE$Props {}&#10;&#10;const $TM_FILENAME_BASE$: React.FunctionComponent&lt;$TM_FILENAME_BASE$Props&gt; = ({}) =&gt; {&#10;  return (&#10;    $END$&#10;  );&#10;};&#10;&#10;export default $TM_FILENAME_BASE$;&#10;" toReformat="false" toShortenFQNames="true">
+  <template name="rc" value="import React from 'react';&#10;import css from './$TM_FILENAME_BASE$.scss';&#10;&#10;interface $TM_FILENAME_BASE$Props {}&#10;&#10;const $TM_FILENAME_BASE$: React.FunctionComponent&lt;$TM_FILENAME_BASE$Props&gt; = ({}) =&gt; {&#10;  return (&#10;    $END$&#10;  );&#10;};&#10;&#10;export default $TM_FILENAME_BASE$;&#10;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="TM_FILENAME_BASE" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
