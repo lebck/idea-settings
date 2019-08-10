@@ -10,4 +10,11 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="rcjs" value="import React from 'react'&#10;&#10;const $COMP$ = ($PROPS$) =&gt; {&#10;    return (&#10;        $END$&#10;    )&#10;}&#10;&#10;export default $COMP$" description="React component" toReformat="false" toShortenFQNames="true">
+    <variable name="COMP" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="" alwaysStopAt="true" />
+    <variable name="PROPS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
