@@ -3,15 +3,15 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.json" />
+    <option name="FILE_MASK" value="*.tsx" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.xml</mask>
     <mask>*.go</mask>
-    <mask>*.tsx</mask>
     <mask>*.graphql</mask>
     <mask>*.</mask>
     <mask>*.pug</mask>
     <mask>*.json</mask>
+    <mask>*.tsx</mask>
   </component>
 </application>
