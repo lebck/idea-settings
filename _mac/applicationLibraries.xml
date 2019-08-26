@@ -3219,6 +3219,27 @@
         <root url="file://$USER_HOME$/.gem/ruby/2.5.0/gems/parser-2.5.1.0/test" />
       </excluded>
     </library>
+    <library name="pg (v1.1.4, ruby-2.5.1-p57) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs25/pg/1.1.4" />
+        <root url="file:///usr/local/lib/ruby/gems/2.5.0/gems/pg-1.1.4/ext" />
+        <root url="file:///usr/local/lib/ruby/gems/2.5.0/gems/pg-1.1.4/lib" />
+        <root url="file:///usr/local/lib/ruby/gems/2.5.0/gems/pg-1.1.4/spec" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs25/pg/1.1.4" />
+        <root url="file:///usr/local/lib/ruby/gems/2.5.0/gems/pg-1.1.4/ext" />
+        <root url="file:///usr/local/lib/ruby/gems/2.5.0/gems/pg-1.1.4/lib" />
+        <root url="file:///usr/local/lib/ruby/gems/2.5.0/gems/pg-1.1.4/spec" />
+      </SOURCES>
+      <excluded>
+        <root url="file:///usr/local/lib/ruby/gems/2.5.0/gems/pg-1.1.4/ext" />
+        <root url="file:///usr/local/lib/ruby/gems/2.5.0/gems/pg-1.1.4/spec" />
+      </excluded>
+    </library>
     <library name="popper_js (v1.12.9, rbenv: 2.4.4) [gem]" type="rubylib">
       <properties>
         <option name="version" value="4" />
