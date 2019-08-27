@@ -36,6 +36,10 @@
   <action id="List-selectFirstRowExtendSelection">
     <keyboard-shortcut first-keystroke="shift home" />
   </action>
+  <action id="NewFile">
+    <keyboard-shortcut first-keystroke="shift meta n" />
+  </action>
+  <action id="NewScratchFile" />
   <action id="ReformatWithPrettierAction">
     <keyboard-shortcut first-keystroke="shift meta f" />
   </action>
