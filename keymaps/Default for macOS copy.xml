@@ -1,7 +1,7 @@
 <keymap version="1" name="Default for macOS copy" parent="Mac OS X 10.5+">
   <action id="ActivateStructureToolWindow" />
   <action id="Back">
-    <keyboard-shortcut first-keystroke="shift meta left" />
+    <keyboard-shortcut first-keystroke="shift ctrl left" />
   </action>
   <action id="CloseAllUnmodifiedEditors">
     <keyboard-shortcut first-keystroke="shift meta w" />
@@ -13,17 +13,13 @@
     <keyboard-shortcut first-keystroke="meta 7" />
   </action>
   <action id="DecreaseColumnWidth" />
+  <action id="Diff.ApplyLeftSide" />
+  <action id="Diff.ApplyRightSide" />
   <action id="EditorCloneCaretAbove">
     <keyboard-shortcut first-keystroke="shift alt up" />
   </action>
   <action id="EditorCloneCaretBelow">
     <keyboard-shortcut first-keystroke="shift alt down" />
-  </action>
-  <action id="EditorLineEndWithSelection">
-    <keyboard-shortcut first-keystroke="shift end" />
-  </action>
-  <action id="EditorLineStartWithSelection">
-    <keyboard-shortcut first-keystroke="shift home" />
   </action>
   <action id="EditorPasteSimple">
     <keyboard-shortcut first-keystroke="ctrl meta v" />
@@ -32,7 +28,7 @@
     <keyboard-shortcut first-keystroke="meta alt f" />
   </action>
   <action id="Forward">
-    <keyboard-shortcut first-keystroke="shift meta right" />
+    <keyboard-shortcut first-keystroke="shift ctrl right" />
   </action>
   <action id="GotoTest" />
   <action id="Images.ShowThumbnails" />
@@ -48,6 +44,8 @@
     <keyboard-shortcut first-keystroke="shift meta n" />
   </action>
   <action id="NewScratchFile" />
+  <action id="NextEditorTab" />
+  <action id="PreviousEditorTab" />
   <action id="ReformatWithPrettierAction">
     <keyboard-shortcut first-keystroke="shift meta f" />
   </action>
