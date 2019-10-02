@@ -6,6 +6,9 @@
   <action id="Back">
     <keyboard-shortcut first-keystroke="shift ctrl left" />
   </action>
+  <action id="CloseAllUnmodifiedEditors">
+    <keyboard-shortcut first-keystroke="shift meta w" />
+  </action>
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="meta 7" />
   </action>
@@ -25,14 +28,25 @@
   <action id="Forward">
     <keyboard-shortcut first-keystroke="shift ctrl right" />
   </action>
+  <action id="GotoTest" />
+  <action id="Images.ShowThumbnails" />
   <action id="IntroduceField" />
   <action id="MethodOverloadSwitchDown" />
   <action id="MethodOverloadSwitchUp" />
+  <action id="MoveTabDown">
+    <keyboard-shortcut first-keystroke="shift ctrl meta down" />
+  </action>
+  <action id="MoveTabRight">
+    <keyboard-shortcut first-keystroke="shift ctrl meta right" />
+  </action>
   <action id="NextEditorTab" />
   <action id="PreviousEditorTab" />
   <action id="ReformatWithPrettierAction">
     <keyboard-shortcut first-keystroke="shift meta alt p" />
     <keyboard-shortcut first-keystroke="shift meta f" />
+  </action>
+  <action id="ReopenClosedTab">
+    <keyboard-shortcut first-keystroke="shift meta t" />
   </action>
   <action id="ReplaceInPath">
     <keyboard-shortcut first-keystroke="meta alt r" />
@@ -40,6 +54,7 @@
   <action id="Resume">
     <keyboard-shortcut first-keystroke="f9" />
   </action>
+  <action id="RunDashboard.ShowConfigurations" />
   <action id="ShowSearchHistory" />
   <action id="SmartSelect" />
   <action id="TableResult.GrowSelection" />
