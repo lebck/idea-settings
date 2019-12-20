@@ -5,6 +5,7 @@
       <mapping pattern="*.js.flow" type="Flow" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping ext="graphqls" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
