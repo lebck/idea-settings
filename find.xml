@@ -10,5 +10,7 @@
     <mask>*.xml</mask>
     <mask>*.go</mask>
     <mask>*.tsx</mask>
+    <mask>queries.ts</mask>
+    <mask>**/__generated__/*</mask>
   </component>
 </application>
