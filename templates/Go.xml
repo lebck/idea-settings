@@ -1,0 +1,7 @@
+<templateSet group="Go">
+  <template name="mod" value="type Module struct {}&#10;&#10;func (m *Module) Configure(injector *dingo.Injector) {&#10;    $END$&#10;}" description="dingo module" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GO" value="true" />
+    </context>
+  </template>
+</templateSet>
