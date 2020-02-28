@@ -1,0 +1,8 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <injection language="JPAQL" injector-id="java">
+      <display-name>Translation.executeQuery (myapp)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("executeQuery").withParameters("java.lang.CharSequence").definedInClass("myapp.Translation"))]]></place>
+    </injection>
+  </component>
+</application>
