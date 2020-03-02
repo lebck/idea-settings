@@ -10,7 +10,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="cssm" value="import css from './$FILENAME$.scss';&#10;" description="CSS Module import" toReformat="false" toShortenFQNames="true">
+  <template name="cssm" value="import css from './$FILENAME$.module.scss';&#10;" description="CSS Module import" toReformat="false" toShortenFQNames="true">
     <variable name="FILENAME" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
