@@ -34,11 +34,17 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="useCallback" value="const $NAME$ = useCallback(() =&gt; {$END$}, [])" toReformat="false" toShortenFQNames="true">
+  <template name="useCallback" value="const $NAME$ = useCallback(() =&gt; {$END$}, [])" description="" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="lessm" value="import css from './$FILENAME$.module.less';&#10;" description="CSS Module import" toReformat="false" toShortenFQNames="true">
+    <variable name="FILENAME" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
 </templateSet>
