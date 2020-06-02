@@ -28,9 +28,17 @@
   <action id="Forward">
     <keyboard-shortcut first-keystroke="shift ctrl right" />
   </action>
-  <action id="GotoTest" />
+  <action id="GotoTest">
+    <mouse-shortcut keystroke="control meta button1" />
+  </action>
   <action id="Images.ShowThumbnails" />
+  <action id="IntroduceConstant">
+    <keyboard-shortcut first-keystroke="ctrl alt c" />
+  </action>
   <action id="IntroduceField" />
+  <action id="IntroduceVariable">
+    <keyboard-shortcut first-keystroke="ctrl alt v" />
+  </action>
   <action id="MethodOverloadSwitchDown" />
   <action id="MethodOverloadSwitchUp" />
   <action id="MoveTabDown">
