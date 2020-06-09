@@ -1,7 +1,4 @@
 <code_scheme name="Default" version="173">
-  <TypeScriptCodeStyleSettings version="0">
-    <option name="IMPORT_PREFER_ABSOLUTE_PATH" value="TRUE" />
-  </TypeScriptCodeStyleSettings>
   <codeStyleSettings language="JAVA">
     <arrangement>
       <groups>
@@ -114,7 +111,6 @@
                 <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
               </AND>
             </match>
-            <order>ANDROID_ATTRIBUTE_ORDER</order>
           </rule>
         </section>
         <section>
