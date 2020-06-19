@@ -72,7 +72,11 @@
   <action id="Stop">
     <keyboard-shortcut first-keystroke="ctrl t" />
   </action>
+  <action id="SurroundWith" />
   <action id="TableResult.GrowSelection" />
+  <action id="Terminal.OpenInTerminal">
+    <keyboard-shortcut first-keystroke="meta alt t" />
+  </action>
   <action id="android.deploy.ApplyChanges">
     <keyboard-shortcut first-keystroke="ctrl meta r" />
   </action>
