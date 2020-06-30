@@ -3,6 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*_spec*" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.xml</mask>
@@ -15,5 +16,7 @@
     <mask>*.graphql</mask>
     <mask>*.json</mask>
     <mask>*_spec.ts</mask>
+    <mask>*commands.ts</mask>
+    <mask>*_spec*</mask>
   </component>
 </application>
