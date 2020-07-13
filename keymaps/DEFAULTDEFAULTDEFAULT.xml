@@ -44,6 +44,7 @@
   </action>
   <action id="MethodOverloadSwitchDown" />
   <action id="MethodOverloadSwitchUp" />
+  <action id="MoveElementRight" />
   <action id="MoveTabDown">
     <keyboard-shortcut first-keystroke="shift ctrl meta down" />
   </action>
@@ -69,11 +70,18 @@
   <action id="RunDashboard.ShowConfigurations" />
   <action id="ShowSearchHistory" />
   <action id="SmartSelect" />
+  <action id="SplitHorizontally">
+    <keyboard-shortcut first-keystroke="shift meta alt down" />
+  </action>
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="shift meta alt right" />
+  </action>
   <action id="Stop">
     <keyboard-shortcut first-keystroke="ctrl t" />
   </action>
   <action id="SurroundWith" />
   <action id="TableResult.GrowSelection" />
+  <action id="Terminal.MoveToolWindowTabRight" />
   <action id="Terminal.OpenInTerminal">
     <keyboard-shortcut first-keystroke="meta alt t" />
   </action>
