@@ -4,7 +4,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="rc" value="import React from 'react';&#10;import css from './$TM_FILENAME_BASE$.scss';&#10;&#10;interface $TM_FILENAME_BASE$Props {}&#10;&#10;const $TM_FILENAME_BASE$: React.FunctionComponent&lt;$TM_FILENAME_BASE$Props&gt; = ({}) =&gt; {&#10;  return (&#10;    $END$&#10;  );&#10;};&#10;&#10;export default $TM_FILENAME_BASE$;&#10;" description="Create a React Component" toReformat="false" toShortenFQNames="true">
+  <template name="rc" value="import React from 'react';&#10;import css from './$TM_FILENAME_BASE$.module.scss';&#10;&#10;interface $TM_FILENAME_BASE$Props {&#10;}&#10;&#10;const $TM_FILENAME_BASE$: React.FC&lt;$TM_FILENAME_BASE$Props&gt; = () =&gt; {&#10;  return (&#10;    $END$&#10;  );&#10;};&#10;&#10;export default $TM_FILENAME_BASE$;&#10;" description="Create a React Component" toReformat="false" toShortenFQNames="true">
     <variable name="TM_FILENAME_BASE" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
@@ -16,16 +16,10 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="rcjs" value="import React from 'react';&#10;import css from './$TM_FILENAME_BASE$.scss';&#10;&#10;const $TM_FILENAME_BASE$ = () =&gt; {&#10;  return (&#10;    $END$&#10;  );&#10;};&#10;&#10;export default $TM_FILENAME_BASE$;&#10;" description="" toReformat="false" toShortenFQNames="true">
+  <template name="rcjs" value="import React from 'react';&#10;import css from './$TM_FILENAME_BASE$.scss';&#10;&#10;const $TM_FILENAME_BASE$ = () =&gt; {&#10;  return (&#10;    $END$&#10;  );&#10;};&#10;&#10;export default $TM_FILENAME_BASE$;&#10;" description="JavaScript React component" toReformat="false" toShortenFQNames="true">
     <variable name="TM_FILENAME_BASE" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="rcs" value="import React from 'react';&#10;&#10;const $TM_FILENAME_BASE$: React.FunctionComponent = () =&gt; {&#10;  return (&#10;    $END$&#10;  );&#10;};&#10;&#10;export default $TM_FILENAME_BASE$;&#10;" description="Simple react component" toReformat="false" toShortenFQNames="true">
-    <variable name="TM_FILENAME_BASE" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="TypeScript" value="true" />
     </context>
   </template>
   <template name="t" value="const { t } = useTranslation($NAMESPACE$);" description="" toReformat="false" toShortenFQNames="true">
@@ -50,6 +44,15 @@
   <template name="doc" value="&#10;/** $END$ */" description="Java doc comment" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="props" value="interface $TM_FILENAME_BASE$Props {&#10;    $END$&#10;}" description="React component props" toReformat="false" toShortenFQNames="true">
+    <variable name="TM_FILENAME_BASE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TS_CLASS" value="false" />
+      <option name="TS_EXPRESSION" value="false" />
+      <option name="TS_STATEMENT" value="false" />
+      <option name="TypeScript" value="true" />
     </context>
   </template>
 </templateSet>
