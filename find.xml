@@ -3,7 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*_test.go" />
+    <option name="FILE_MASK" value="*.tsx" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.xml</mask>
@@ -14,10 +14,11 @@
     <mask>*commands.ts</mask>
     <mask>*_spec*</mask>
     <mask>*_spec.ts</mask>
-    <mask>*.graphql</mask>
+    <mask>*_test.go</mask>
     <mask>*.ts</mask>
     <mask>*.json</mask>
+    <mask>*.spec.tsx</mask>
+    <mask>*.graphql</mask>
     <mask>*.tsx</mask>
-    <mask>*_test.go</mask>
   </component>
 </application>
