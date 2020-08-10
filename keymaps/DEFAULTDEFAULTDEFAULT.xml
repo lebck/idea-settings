@@ -27,6 +27,9 @@
     <keyboard-shortcut first-keystroke="left" />
   </action>
   <action id="EditorSelectWord" />
+  <action id="EditorToggleUseSoftWraps">
+    <keyboard-shortcut first-keystroke="alt z" />
+  </action>
   <action id="EditorUnSelectWord" />
   <action id="FindInPath">
     <keyboard-shortcut first-keystroke="meta alt f" />
