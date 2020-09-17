@@ -12,12 +12,13 @@
     <mask>*.java</mask>
     <mask>*commands.ts</mask>
     <mask>*_spec*</mask>
-    <mask>*_spec.ts</mask>
     <mask>*_test.go</mask>
-    <mask>*.ts</mask>
-    <mask>*.json</mask>
     <mask>*.spec.tsx</mask>
     <mask>*.graphql</mask>
     <mask>*.tsx</mask>
+    <mask>*.ts</mask>
+    <mask>*.json</mask>
+    <mask>*.d.ts</mask>
+    <mask>*_spec.ts</mask>
   </component>
 </application>
