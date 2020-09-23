@@ -57,6 +57,9 @@
   <action id="IntroduceVariable">
     <keyboard-shortcut first-keystroke="ctrl alt v" />
   </action>
+  <action id="LocalHistory.ShowHistory">
+    <keyboard-shortcut first-keystroke="shift ctrl h" />
+  </action>
   <action id="MethodOverloadSwitchDown" />
   <action id="MethodOverloadSwitchUp" />
   <action id="MoveElementRight" />
