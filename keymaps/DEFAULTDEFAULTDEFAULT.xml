@@ -57,6 +57,9 @@
   <action id="IntroduceVariable">
     <keyboard-shortcut first-keystroke="ctrl alt v" />
   </action>
+  <action id="LocalHistory.ShowHistory">
+    <keyboard-shortcut first-keystroke="shift ctrl h" />
+  </action>
   <action id="MethodOverloadSwitchDown" />
   <action id="MethodOverloadSwitchUp" />
   <action id="MoveElementRight" />
@@ -70,7 +73,6 @@
   <action id="PreviousEditorTab" />
   <action id="Refactorings.QuickListPopupAction" />
   <action id="ReformatWithPrettierAction">
-    <keyboard-shortcut first-keystroke="shift meta alt p" />
     <keyboard-shortcut first-keystroke="shift meta f" />
   </action>
   <action id="ReopenClosedTab">
