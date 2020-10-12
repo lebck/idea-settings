@@ -3,7 +3,7 @@
     <property name="created">2019-07-24T12:31:49</property>
     <property name="ide">GoLand</property>
     <property name="ideVersion">2019.1.3.0.0</property>
-    <property name="modified">2019-09-19T12:48:56</property>
+    <property name="modified">2020-10-12T13:45:06</property>
     <property name="originalScheme">Solarized Dark</property>
   </metaInfo>
   <colors>
@@ -2122,6 +2122,16 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
+    <option name="OC.CLASS_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="88b7ca" />
+      </value>
+    </option>
+    <option name="OC.CONDITIONALLY_NOT_COMPILED">
+      <value>
+        <option name="FOREGROUND" value="78a267" />
+      </value>
+    </option>
     <option name="OC.CPP_KEYWORD">
       <value>
         <option name="FOREGROUND" value="859900" />
@@ -2155,6 +2165,16 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
+    <option name="OC.MESSAGE_ARGUMENT">
+      <value>
+        <option name="FOREGROUND" value="7943f8" />
+      </value>
+    </option>
+    <option name="OC.METHOD_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="693ee7" />
+      </value>
+    </option>
     <option name="OC.NUMBER">
       <value>
         <option name="FOREGROUND" value="2aa198" />
@@ -2184,6 +2204,11 @@
     <option name="OC.STRUCT_FIELD">
       <value>
         <option name="FOREGROUND" value="268bd2" />
+      </value>
+    </option>
+    <option name="OC.TYPEDEF">
+      <value>
+        <option name="FOREGROUND" value="7041ff" />
       </value>
     </option>
     <option name="OC_FORMAT_TOKEN">
@@ -3094,6 +3119,21 @@
     <option name="STRUCT_LIKE">
       <value>
         <option name="FOREGROUND" value="b38700" />
+      </value>
+    </option>
+    <option name="SWIFT_EXTERNAL_PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="9c6efa" />
+      </value>
+    </option>
+    <option name="SWIFT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="945df8" />
+      </value>
+    </option>
+    <option name="SWIFT_TYPEALIAS_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="7425ff" />
       </value>
     </option>
     <option name="Scala Abstract class">
