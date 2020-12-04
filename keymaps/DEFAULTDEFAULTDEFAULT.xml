@@ -44,6 +44,9 @@
   <action id="Git.Branches">
     <keyboard-shortcut first-keystroke="ctrl b" />
   </action>
+  <action id="Git.Rebase">
+    <keyboard-shortcut first-keystroke="shift ctrl r" />
+  </action>
   <action id="Git.Stash">
     <keyboard-shortcut first-keystroke="ctrl s" />
   </action>
@@ -88,6 +91,8 @@
   <action id="Resume">
     <keyboard-shortcut first-keystroke="f9" />
   </action>
+  <action id="RunClass" />
+  <action id="RunDashboard.Run" />
   <action id="RunDashboard.ShowConfigurations" />
   <action id="ShowSearchHistory" />
   <action id="SmartSelect" />

@@ -22,13 +22,13 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="t" value="const { t } = useTranslation($NAMESPACE$);" description="" toReformat="false" toShortenFQNames="true">
+  <template name="t" value="const { t } = useTranslation($NAMESPACE$);" description="useTranslation" toReformat="false" toShortenFQNames="true">
     <variable name="NAMESPACE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="useCallback" value="const $NAME$ = useCallback(() =&gt; {$END$}, [])" description="" toReformat="false" toShortenFQNames="true">
+  <template name="c" value="const $NAME$ = useCallback(() =&gt; {$END$}, [])" description="useCallback" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
@@ -53,6 +53,11 @@
       <option name="TS_EXPRESSION" value="false" />
       <option name="TS_STATEMENT" value="false" />
       <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="center:abs" value="transform: translateX(50%);&#10;left: -50%;" description="Center position absolute" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="true" />
     </context>
   </template>
 </templateSet>
