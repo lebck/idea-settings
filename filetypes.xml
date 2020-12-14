@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern=".postcssrc" type="JSON" />
       <mapping pattern="generate" type="JavaScript" />
+      <mapping pattern="0000-introduction" type="PLAIN_TEXT" />
       <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
       <mapping pattern=".env.build" type="PLAIN_TEXT" />
       <mapping pattern=".env.dev" type="PLAIN_TEXT" />
