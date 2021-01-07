@@ -1,4 +1,9 @@
 <code_scheme name="Default" version="173">
+  <option name="OTHER_INDENT_OPTIONS">
+    <value>
+      <option name="INDENT_SIZE" value="2" />
+    </value>
+  </option>
   <TypeScriptCodeStyleSettings version="0">
     <option name="USE_PATH_MAPPING" value="DIFFERENT_PATHS" />
   </TypeScriptCodeStyleSettings>
@@ -6,6 +11,10 @@
     <option name="ENABLED" value="false" />
   </editorconfig>
   <codeStyleSettings language="JAVA">
+    <indentOptions>
+      <option name="INDENT_SIZE" value="2" />
+      <option name="CONTINUATION_INDENT_SIZE" value="4" />
+    </indentOptions>
     <arrangement>
       <groups>
         <group>
@@ -19,6 +28,12 @@
       </groups>
     </arrangement>
   </codeStyleSettings>
+  <codeStyleSettings language="JavaScript">
+    <indentOptions>
+      <option name="INDENT_SIZE" value="2" />
+      <option name="TAB_SIZE" value="2" />
+    </indentOptions>
+  </codeStyleSettings>
   <codeStyleSettings language="TypeScript">
     <indentOptions>
       <option name="INDENT_SIZE" value="2" />
@@ -27,6 +42,9 @@
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="XML">
+    <indentOptions>
+      <option name="INDENT_SIZE" value="2" />
+    </indentOptions>
     <arrangement>
       <rules>
         <section>
