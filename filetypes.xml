@@ -1,7 +1,6 @@
 <application>
-  <component name="FileTypeManager" version="18">
+  <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping ext="webp" type="Image" />
       <mapping pattern=".postcssrc" type="JSON" />
       <mapping pattern="generate" type="JavaScript" />
       <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
