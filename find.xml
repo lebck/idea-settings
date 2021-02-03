@@ -14,7 +14,6 @@
     <mask>*_test.go</mask>
     <mask>*.spec.tsx</mask>
     <mask>*.json</mask>
-    <mask>*.d.ts</mask>
     <mask>*.interface.ts</mask>
     <mask>queries.ts</mask>
     <mask>*_spec.ts</mask>
@@ -23,5 +22,6 @@
     <mask>*.graphql</mask>
     <mask>*.ts</mask>
     <mask>*.ts,*.tsx</mask>
+    <mask>*.d.ts</mask>
   </component>
 </application>
