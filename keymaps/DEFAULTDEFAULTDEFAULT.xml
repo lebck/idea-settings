@@ -56,6 +56,7 @@
   <action id="GotoTest">
     <mouse-shortcut keystroke="control meta button1" />
   </action>
+  <action id="HippieBackwardCompletion" />
   <action id="Images.ShowThumbnails" />
   <action id="IntroduceConstant">
     <keyboard-shortcut first-keystroke="ctrl alt c" />

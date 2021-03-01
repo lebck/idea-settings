@@ -7,7 +7,6 @@
     <mask>*.html</mask>
     <mask>*.xml</mask>
     <mask>**/__generated__/*</mask>
-    <mask>*.go</mask>
     <mask>*.java</mask>
     <mask>*commands.ts</mask>
     <mask>*_spec*</mask>
@@ -19,9 +18,10 @@
     <mask>*_spec.ts</mask>
     <mask>*.tsx</mask>
     <mask>*.(ts|tsx)</mask>
-    <mask>*.graphql</mask>
     <mask>*.ts</mask>
     <mask>*.ts,*.tsx</mask>
     <mask>*.d.ts</mask>
+    <mask>*.graphql</mask>
+    <mask>*.go</mask>
   </component>
 </application>
