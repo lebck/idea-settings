@@ -3,6 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.json" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.xml</mask>
@@ -12,7 +13,6 @@
     <mask>*_spec*</mask>
     <mask>*_test.go</mask>
     <mask>*.spec.tsx</mask>
-    <mask>*.json</mask>
     <mask>*.interface.ts</mask>
     <mask>queries.ts</mask>
     <mask>*_spec.ts</mask>
@@ -23,5 +23,6 @@
     <mask>*.d.ts</mask>
     <mask>*.graphql</mask>
     <mask>*.go</mask>
+    <mask>*.json</mask>
   </component>
 </application>
