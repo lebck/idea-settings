@@ -15,9 +15,6 @@
   <TypeScriptCodeStyleSettings version="0">
     <option name="USE_PATH_MAPPING" value="DIFFERENT_PATHS" />
   </TypeScriptCodeStyleSettings>
-  <editorconfig>
-    <option name="ENABLED" value="false" />
-  </editorconfig>
   <codeStyleSettings language="JAVA">
     <indentOptions>
       <option name="INDENT_SIZE" value="2" />
