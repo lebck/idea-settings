@@ -1,7 +1,6 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
-      <mapping ext="ng" type="HTML" />
       <mapping pattern=".postcssrc" type="JSON" />
       <mapping pattern="generate" type="JavaScript" />
       <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
