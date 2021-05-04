@@ -1,0 +1,23 @@
+<keymap version="1" name="GNOME_DEFAULT" parent="Default for GNOME">
+  <action id="Console.TableResult.EditFilterCriteria" />
+  <action id="DatabaseView.FullTextSearch" />
+  <action id="FindInPath">
+    <keyboard-shortcut first-keystroke="ctrl alt f" />
+  </action>
+  <action id="GoFmtFileAction" />
+  <action id="IntroduceField" />
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="shift ctrl f" />
+  </action>
+  <action id="ReplaceInPath">
+    <keyboard-shortcut first-keystroke="ctrl alt r" />
+  </action>
+  <action id="ShowFilterPopup" />
+  <action id="ShowReformatFileDialog">
+    <keyboard-shortcut first-keystroke="shift ctrl alt f" />
+  </action>
+  <action id="ShowSettings">
+    <keyboard-shortcut first-keystroke="ctrl comma" />
+  </action>
+  <action id="UsageGrouping.FileStructure" />
+</keymap>

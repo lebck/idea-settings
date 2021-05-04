@@ -1,4 +1,4 @@
-<keymap version="1" name="DEFAULTDEFAULTDEFAULT" parent="Mac OS X 10.5+">
+<keymap version="1" name="MAC_DEFAULT" parent="Mac OS X 10.5+">
   <action id="ActivateLogcatToolWindow">
     <keyboard-shortcut first-keystroke="meta 6" />
   </action>
