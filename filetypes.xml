@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern=".postcssrc" type="JSON" />
+      <mapping pattern=".prettierrc" type="JSON" />
       <mapping pattern="generate" type="JavaScript" />
       <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
       <mapping pattern=".env.build" type="PLAIN_TEXT" />

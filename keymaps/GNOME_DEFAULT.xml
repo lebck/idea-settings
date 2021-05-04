@@ -1,4 +1,9 @@
 <keymap version="1" name="GNOME_DEFAULT" parent="Default for GNOME">
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="shift alt left" />
+    <mouse-shortcut keystroke="button4" />
+    <keyboard-shortcut first-keystroke="shift ctrl left" />
+  </action>
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="ctrl 7" />
   </action>
@@ -10,9 +15,16 @@
   </action>
   <action id="Diff.ShowDiff" />
   <action id="EditorDuplicate" />
+  <action id="EditorNextWordWithSelection" />
+  <action id="EditorPreviousWordWithSelection" />
   <action id="FileChooser.GotoDesktop" />
   <action id="FindInPath">
     <keyboard-shortcut first-keystroke="ctrl alt f" />
+  </action>
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="shift alt right" />
+    <mouse-shortcut keystroke="button5" />
+    <keyboard-shortcut first-keystroke="shift ctrl right" />
   </action>
   <action id="GoFmtFileAction" />
   <action id="GotoBookmark7" />
@@ -24,6 +36,8 @@
   <action id="ReplaceInPath">
     <keyboard-shortcut first-keystroke="ctrl alt r" />
   </action>
+  <action id="ResizeToolWindowLeft" />
+  <action id="ResizeToolWindowRight" />
   <action id="Run">
     <keyboard-shortcut first-keystroke="shift f10" />
     <keyboard-shortcut first-keystroke="ctrl r" />
