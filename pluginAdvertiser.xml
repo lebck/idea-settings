@@ -17,6 +17,11 @@
                       <FeaturePluginData displayName="Compound" pluginName="IDEA CORE" pluginId="com.intellij" bundled="true" />
                     </value>
                   </entry>
+                  <entry key="CypressConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="Cypress" pluginName="Cypress Support" pluginId="me.mbolotov.cypress" />
+                    </value>
+                  </entry>
                   <entry key="DatabaseScript">
                     <value>
                       <FeaturePluginData displayName="Database Script" pluginName="Database Tools and SQL" pluginId="com.intellij.database" bundled="true" />
@@ -77,9 +82,19 @@
                       <FeaturePluginData displayName="Makefile Target" pluginName="Makefile Language" pluginId="name.kropp.intellij.makefile" bundled="true" />
                     </value>
                   </entry>
+                  <entry key="NodeJSConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="Node.js" pluginName="Node.js" pluginId="NodeJS" />
+                    </value>
+                  </entry>
                   <entry key="NodeWebKit">
                     <value>
                       <FeaturePluginData displayName="NW.js" pluginName="JavaScript Debugger" pluginId="JavaScriptDebugger" bundled="true" />
+                    </value>
+                  </entry>
+                  <entry key="NodeunitConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="Nodeunit" pluginName="Node.js" pluginId="NodeJS" />
                     </value>
                   </entry>
                   <entry key="ReactNative">
@@ -125,6 +140,11 @@
                   <entry key="js.build_tools.npm">
                     <value>
                       <FeaturePluginData displayName="npm" pluginName="JavaScript and TypeScript" pluginId="JavaScript" bundled="true" />
+                    </value>
+                  </entry>
+                  <entry key="mocha-javascript-test-runner">
+                    <value>
+                      <FeaturePluginData displayName="Mocha" pluginName="Node.js" pluginId="NodeJS" />
                     </value>
                   </entry>
                 </map>
