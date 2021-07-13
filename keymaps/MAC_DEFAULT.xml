@@ -32,8 +32,14 @@
   <action id="EditorLeft">
     <keyboard-shortcut first-keystroke="left" />
   </action>
+  <action id="EditorNextWord">
+    <keyboard-shortcut first-keystroke="alt right" />
+  </action>
   <action id="EditorPreviousWord">
     <keyboard-shortcut first-keystroke="alt left" />
+  </action>
+  <action id="EditorRight">
+    <keyboard-shortcut first-keystroke="right" />
   </action>
   <action id="EditorSelectWord" />
   <action id="EditorToggleUseSoftWraps">
@@ -104,16 +110,23 @@
   </action>
   <action id="RunClass" />
   <action id="RunConfigurationAsAction_Debug_[backend] serve_default_target">
-    <keyboard-shortcut first-keystroke="ctrl alt b" />
+    <keyboard-shortcut first-keystroke="shift ctrl b" />
+  </action>
+  <action id="RunConfigurationAsAction_Run_2 - [frontend] serve_default_target">
+    <keyboard-shortcut first-keystroke="ctrl f" />
   </action>
   <action id="RunConfigurationAsAction_Run_[backend] serve_default_target">
     <keyboard-shortcut first-keystroke="ctrl b" />
   </action>
   <action id="RunConfigurationAsAction_Run_[backend] unit tests_default_target">
-    <keyboard-shortcut first-keystroke="shift ctrl b" />
+    <keyboard-shortcut first-keystroke="ctrl alt b" />
+  </action>
+  <action id="RunConfigurationAsAction_Run_[frontend] unit tests_default_target">
+    <keyboard-shortcut first-keystroke="ctrl alt f" />
   </action>
   <action id="RunDashboard.Run" />
   <action id="RunDashboard.ShowConfigurations" />
+  <action id="ShowFilterPopup" />
   <action id="ShowReformatFileDialog">
     <keyboard-shortcut first-keystroke="shift meta alt l" />
     <keyboard-shortcut first-keystroke="shift meta alt f" />
@@ -135,6 +148,7 @@
   <action id="Terminal.OpenInTerminal">
     <keyboard-shortcut first-keystroke="meta alt t" />
   </action>
+  <action id="TodoViewGroupByFlattenPackage" />
   <action id="TypeHierarchy" />
   <action id="TypeHierarchyBase.BaseOnThisType" />
   <action id="Vcs.ShowTabbedFileHistory">
