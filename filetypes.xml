@@ -5,6 +5,7 @@
       <mapping pattern="form/form-testing" type="AUTO_DETECTED" />
       <mapping pattern="DONT_TOUCH_FILE_WITHOUT_LANG_CODE" type="AUTO_DETECTED" />
       <mapping pattern="frontend/Dockerfile" type="AUTO_DETECTED" />
+      <mapping ext="debug" type="Dockerfile" />
       <mapping pattern=".postcssrc" type="JSON" />
       <mapping pattern="generate" type="JavaScript" />
       <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
