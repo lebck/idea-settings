@@ -38,6 +38,10 @@
   <action id="EditorLeft">
     <keyboard-shortcut first-keystroke="left" />
   </action>
+  <action id="EditorLineStart">
+    <keyboard-shortcut first-keystroke="home" />
+    <keyboard-shortcut first-keystroke="meta left" />
+  </action>
   <action id="EditorNextWord">
     <keyboard-shortcut first-keystroke="alt right" />
   </action>
@@ -90,7 +94,14 @@
   <action id="MoveTabRight">
     <keyboard-shortcut first-keystroke="shift ctrl meta right" />
   </action>
+  <action id="NavBar-selectHome">
+    <keyboard-shortcut first-keystroke="home" />
+    <keyboard-shortcut first-keystroke="meta left" />
+  </action>
   <action id="NextEditorTab" />
+  <action id="PinActiveTab">
+    <keyboard-shortcut first-keystroke="ctrl a" />
+  </action>
   <action id="PlantUML.Update" />
   <action id="PreviousEditorTab" />
   <action id="Refactorings.QuickListPopupAction" />
