@@ -3,6 +3,10 @@
     <option name="deletedKeys">
       <list>
         <TemplateKey>
+          <option name="groupName" value="Conventional commit" />
+          <option name="key" value="cs" />
+        </TemplateKey>
+        <TemplateKey>
           <option name="groupName" value="Shell Script Hidden" />
           <option name="key" value="shell_if" />
         </TemplateKey>
@@ -257,6 +261,10 @@
         <TemplateKey>
           <option name="groupName" value="GoHiddenTemplate" />
           <option name="key" value="forbN" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="GoHiddenTemplate" />
+          <option name="key" value="fuzz" />
         </TemplateKey>
       </list>
     </option>
