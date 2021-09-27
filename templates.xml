@@ -135,6 +135,10 @@
           <option name="key" value="vgo_lang_exclude" />
         </TemplateKey>
         <TemplateKey>
+          <option name="groupName" value="Go" />
+          <option name="key" value="map" />
+        </TemplateKey>
+        <TemplateKey>
           <option name="groupName" value="GoHiddenTemplate" />
           <option name="key" value="go_lang_package" />
         </TemplateKey>
