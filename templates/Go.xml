@@ -12,4 +12,14 @@
       <option name="GO_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="mapr" value="var $MAPPED_COLLECTION$ $MAPPED_COLLECTION_TYPE$&#10;&#10;if len($COLLECTION$) &gt; 0 {&#10;  $MAPPED_COLLECTION$ = make($MAPPED_COLLECTION_TYPE$, 0 , len($COLLECTION$))&#10;&#10;  for $KEY$, $VALUE$ := range $COLLECTION$ {&#10;    $MAPPED_COLLECTION$ = append($MAPPED_COLLECTION$, $END$)&#10;  }&#10;}&#10;&#10;" description="Map array" toReformat="true" toShortenFQNames="true">
+    <variable name="MAPPED_COLLECTION" expression="goSuggestVariableName()" defaultValue="&quot;mappedCollection&quot;" alwaysStopAt="true" />
+    <variable name="MAPPED_COLLECTION_TYPE" expression="arrayVariable()" defaultValue="" alwaysStopAt="true" />
+    <variable name="COLLECTION" expression="goSuggestVariableName()" defaultValue="&quot;collection&quot;" alwaysStopAt="true" />
+    <variable name="KEY" expression="goSuggestVariableName()" defaultValue="&quot;key&quot;" alwaysStopAt="true" />
+    <variable name="VALUE" expression="goSuggestVariableName()" defaultValue="&quot;value&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="GO_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
