@@ -1,24 +1,18 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
-      <mapping pattern="Caddyfile" type="AUTO_DETECTED" />
-      <mapping pattern="form/form-testing" type="AUTO_DETECTED" />
-      <mapping pattern="frontend/Dockerfile" type="AUTO_DETECTED" />
-      <mapping pattern="DONT_TOUCH_FILE_WITHOUT_LANG_CODE" type="AUTO_DETECTED" />
-      <mapping ext="debug" type="Dockerfile" />
       <mapping pattern=".postcssrc" type="JSON" />
       <mapping pattern="generate" type="JavaScript" />
-      <mapping pattern=".keep" type="PLAIN_TEXT" />
-      <mapping pattern=".env.build" type="PLAIN_TEXT" />
       <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
-      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping pattern=".env.build" type="PLAIN_TEXT" />
       <mapping pattern=".env.dev" type="PLAIN_TEXT" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
-      <mapping pattern=".goland" type="PLAIN_TEXT" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping ext="bench" type="PLAIN_TEXT" />
-      <mapping ext="plantuml" type="PlantUML file" />
-      <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
-      <removed_mapping pattern=".dockerignore" approved="true" type="Docker File" />
+      <mapping pattern="tsconfig.app.json" type="tsconfig" />
+      <mapping pattern="tsconfig.e2e.json" type="tsconfig" />
+      <mapping pattern="tsconfig.spec.json" type="tsconfig" />
+      <mapping pattern="tsconfig.lib.json" type="tsconfig" />
       <mapping ext="gradle.kts" type="Kotlin" />
     </extensionMap>
   </component>
