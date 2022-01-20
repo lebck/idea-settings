@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping pattern="Procfile" type="AUTO_DETECTED" />
       <mapping pattern="pdfdownload" type="AUTO_DETECTED" />
       <mapping pattern=".postcssrc" type="JSON" />
       <mapping pattern="generate" type="JavaScript" />
