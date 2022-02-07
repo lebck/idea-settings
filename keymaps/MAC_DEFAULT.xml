@@ -4,6 +4,7 @@
   </action>
   <action id="ActivateStructureToolWindow" />
   <action id="ActivateTODOToolWindow" />
+  <action id="ActivateVersionControlToolWindow" />
   <action id="Arrangement.Alias.Rule.Match.Condition.Move.Up" />
   <action id="Arrangement.Rule.Match.Condition.Move.Down" />
   <action id="Arrangement.Rule.Match.Condition.Move.Up" />
@@ -143,6 +144,7 @@
   <action id="SelectInProjectView">
     <keyboard-shortcut first-keystroke="ctrl q" />
   </action>
+  <action id="SelectNextOccurrence" />
   <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="ShelvedChanges.Restore">
     <keyboard-shortcut first-keystroke="shift ctrl s" />
@@ -173,6 +175,9 @@
   <action id="TypeHierarchy" />
   <action id="TypeHierarchyBase.BaseOnThisType" />
   <action id="UsageGrouping.FileStructure" />
+  <action id="Vcs.Show.Log">
+    <keyboard-shortcut first-keystroke="ctrl g" />
+  </action>
   <action id="Vcs.ShowTabbedFileHistory">
     <keyboard-shortcut first-keystroke="ctrl h" />
   </action>
