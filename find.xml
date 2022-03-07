@@ -2,10 +2,8 @@
   <component name="FindSettings">
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
-    <option name="localCaseSensitive" value="true" />
-    <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.md" />
+    <option name="FILE_MASK" value="*.go" />
     <mask>**/__generated__/*</mask>
     <mask>*.java</mask>
     <mask>*commands.ts</mask>
@@ -29,8 +27,8 @@
     <mask>*.css</mask>
     <mask>*.xml</mask>
     <mask>*.go2</mask>
-    <mask>*.go</mask>
     <mask>*.html</mask>
     <mask>*.md</mask>
+    <mask>*.go</mask>
   </component>
 </application>
