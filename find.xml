@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project 'app.js'" />
-    <option name="defaultScopeName" value="Project 'app.js'" />
-    <option name="SEARCH_SCOPE" value="Project 'app.js'" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="SEARCH_SCOPE" value="All Places" />
     <mask>**/__generated__/*</mask>
     <mask>*.java</mask>
     <mask>*commands.ts</mask>
