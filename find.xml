@@ -3,6 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.ts" />
     <mask>**/__generated__/*</mask>
     <mask>*.java</mask>
     <mask>*commands.ts</mask>
@@ -27,7 +28,7 @@
     <mask>*.go2</mask>
     <mask>*.html</mask>
     <mask>*.md</mask>
-    <mask>*.ts</mask>
     <mask>*.go</mask>
+    <mask>*.ts</mask>
   </component>
 </application>
