@@ -4,11 +4,18 @@
   </action>
   <action id="ActivateStructureToolWindow" />
   <action id="ActivateTODOToolWindow" />
+  <action id="ActivateVersionControlToolWindow" />
   <action id="Arrangement.Alias.Rule.Match.Condition.Move.Up" />
   <action id="Arrangement.Rule.Match.Condition.Move.Down" />
   <action id="Arrangement.Rule.Match.Condition.Move.Up" />
   <action id="Back">
     <keyboard-shortcut first-keystroke="shift ctrl left" />
+  </action>
+  <action id="ChangesView.Shelve">
+    <keyboard-shortcut first-keystroke="ctrl s" />
+  </action>
+  <action id="ChangesView.ShelveSilently">
+    <keyboard-shortcut first-keystroke="ctrl alt s" />
   </action>
   <action id="CloseAllEditorsButActive">
     <keyboard-shortcut first-keystroke="meta alt w" />
@@ -21,6 +28,9 @@
   </action>
   <action id="Console.TableResult.EditFilterCriteria" />
   <action id="DatabaseView.FullTextSearch" />
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="shift ctrl r" />
+  </action>
   <action id="Diff.ApplyLeftSide" />
   <action id="Diff.ApplyRightSide" />
   <action id="EditorCloneCaretAbove">
@@ -29,8 +39,24 @@
   <action id="EditorCloneCaretBelow">
     <keyboard-shortcut first-keystroke="alt down" />
   </action>
+  <action id="EditorEnter">
+    <keyboard-shortcut first-keystroke="enter" />
+  </action>
   <action id="EditorLeft">
     <keyboard-shortcut first-keystroke="left" />
+  </action>
+  <action id="EditorLineStart">
+    <keyboard-shortcut first-keystroke="home" />
+    <keyboard-shortcut first-keystroke="meta left" />
+  </action>
+  <action id="EditorNextWord">
+    <keyboard-shortcut first-keystroke="alt right" />
+  </action>
+  <action id="EditorPreviousWord">
+    <keyboard-shortcut first-keystroke="alt left" />
+  </action>
+  <action id="EditorRight">
+    <keyboard-shortcut first-keystroke="right" />
   </action>
   <action id="EditorSelectWord" />
   <action id="EditorToggleUseSoftWraps">
@@ -43,21 +69,13 @@
   <action id="Forward">
     <keyboard-shortcut first-keystroke="shift ctrl right" />
   </action>
-  <action id="Git.Branches">
-    <keyboard-shortcut first-keystroke="ctrl b" />
-  </action>
-  <action id="Git.Rebase">
-    <keyboard-shortcut first-keystroke="shift ctrl r" />
-  </action>
-  <action id="Git.Stash">
-    <keyboard-shortcut first-keystroke="ctrl s" />
-  </action>
-  <action id="Git.Unstash">
-    <keyboard-shortcut first-keystroke="shift ctrl s" />
-  </action>
   <action id="GoFmtFileAction" />
   <action id="GotoTest">
     <mouse-shortcut keystroke="control meta button1" />
+  </action>
+  <action id="GotoTypeDeclaration">
+    <keyboard-shortcut first-keystroke="shift meta b" />
+    <mouse-shortcut keystroke="shift meta button1" />
   </action>
   <action id="HippieBackwardCompletion" />
   <action id="Images.ShowThumbnails" />
@@ -80,7 +98,14 @@
   <action id="MoveTabRight">
     <keyboard-shortcut first-keystroke="shift ctrl meta right" />
   </action>
+  <action id="NavBar-selectHome">
+    <keyboard-shortcut first-keystroke="home" />
+    <keyboard-shortcut first-keystroke="meta left" />
+  </action>
   <action id="NextEditorTab" />
+  <action id="PinActiveTab">
+    <keyboard-shortcut first-keystroke="ctrl a" />
+  </action>
   <action id="PlantUML.Update" />
   <action id="PreviousEditorTab" />
   <action id="Refactorings.QuickListPopupAction" />
@@ -99,8 +124,32 @@
     <keyboard-shortcut first-keystroke="f9" />
   </action>
   <action id="RunClass" />
+  <action id="RunConfigurationAsAction_Debug_[backend] serve_default_target">
+    <keyboard-shortcut first-keystroke="shift ctrl b" />
+  </action>
+  <action id="RunConfigurationAsAction_Run_2 - [frontend] serve_default_target">
+    <keyboard-shortcut first-keystroke="ctrl f" />
+  </action>
+  <action id="RunConfigurationAsAction_Run_[backend] serve_default_target">
+    <keyboard-shortcut first-keystroke="ctrl b" />
+  </action>
+  <action id="RunConfigurationAsAction_Run_[backend] unit tests_default_target">
+    <keyboard-shortcut first-keystroke="ctrl alt b" />
+  </action>
+  <action id="RunConfigurationAsAction_Run_[frontend] unit tests_default_target">
+    <keyboard-shortcut first-keystroke="ctrl alt f" />
+  </action>
   <action id="RunDashboard.Run" />
   <action id="RunDashboard.ShowConfigurations" />
+  <action id="SelectInProjectView">
+    <keyboard-shortcut first-keystroke="ctrl q" />
+  </action>
+  <action id="SelectNextOccurrence" />
+  <action id="ShelveChanges.UnshelveWithDialog" />
+  <action id="ShelvedChanges.Restore">
+    <keyboard-shortcut first-keystroke="shift ctrl s" />
+  </action>
+  <action id="ShowFilterPopup" />
   <action id="ShowReformatFileDialog">
     <keyboard-shortcut first-keystroke="shift meta alt l" />
     <keyboard-shortcut first-keystroke="shift meta alt f" />
@@ -122,8 +171,13 @@
   <action id="Terminal.OpenInTerminal">
     <keyboard-shortcut first-keystroke="meta alt t" />
   </action>
+  <action id="TodoViewGroupByFlattenPackage" />
   <action id="TypeHierarchy" />
   <action id="TypeHierarchyBase.BaseOnThisType" />
+  <action id="UsageGrouping.FileStructure" />
+  <action id="Vcs.Show.Log">
+    <keyboard-shortcut first-keystroke="ctrl g" />
+  </action>
   <action id="Vcs.ShowTabbedFileHistory">
     <keyboard-shortcut first-keystroke="ctrl h" />
   </action>

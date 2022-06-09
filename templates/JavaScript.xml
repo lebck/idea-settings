@@ -5,4 +5,11 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="mockService" value="  const { $serviceName$Provider, mock$serviceNameUpper$ } =&#10;      createMock$serviceNameUpper$Provider();&#10;    $serviceName$ = mock$serviceNameUpper$;" description="Mock a service" toReformat="false" toShortenFQNames="true">
+    <variable name="serviceName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="serviceNameUpper" expression="capitalize(serviceName)" defaultValue="None" alwaysStopAt="false" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
