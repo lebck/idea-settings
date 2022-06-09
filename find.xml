@@ -5,7 +5,7 @@
     <option name="localCaseSensitive" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.spec.ts" />
+    <option name="FILE_MASK" value="*.go" />
     <mask>**/__generated__/*</mask>
     <mask>*.java</mask>
     <mask>*commands.ts</mask>
@@ -28,9 +28,9 @@
     <mask>*.xml</mask>
     <mask>*.go2</mask>
     <mask>*.md</mask>
-    <mask>*.go</mask>
     <mask>*.ts</mask>
     <mask>*.html</mask>
     <mask>*.spec.ts</mask>
+    <mask>*.go</mask>
   </component>
 </application>
