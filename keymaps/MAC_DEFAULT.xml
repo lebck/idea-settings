@@ -140,6 +140,7 @@
   <action id="SelectInProjectView">
     <keyboard-shortcut first-keystroke="ctrl q" />
   </action>
+  <action id="SelectNextOccurrence" />
   <action id="ShelveChanges.UnshelveWithDialog">
     <keyboard-shortcut first-keystroke="shift ctrl s" />
   </action>
@@ -169,6 +170,9 @@
   <action id="TypeHierarchy" />
   <action id="TypeHierarchyBase.BaseOnThisType" />
   <action id="UsageGrouping.FileStructure" />
+  <action id="Vcs.Show.Log">
+    <keyboard-shortcut first-keystroke="ctrl g" />
+  </action>
   <action id="Vcs.ShowTabbedFileHistory">
     <keyboard-shortcut first-keystroke="ctrl h" />
   </action>
