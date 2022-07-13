@@ -10,9 +10,6 @@
   <action id="Back">
     <keyboard-shortcut first-keystroke="shift ctrl left" />
   </action>
-  <action id="ChangesView.Shelve">
-    <keyboard-shortcut first-keystroke="ctrl s" />
-  </action>
   <action id="ChangesView.ShelveSilently">
     <keyboard-shortcut first-keystroke="ctrl alt s" />
   </action>
@@ -64,6 +61,12 @@
   </action>
   <action id="Forward">
     <keyboard-shortcut first-keystroke="shift ctrl right" />
+  </action>
+  <action id="Git.Stash">
+    <keyboard-shortcut first-keystroke="ctrl s" />
+  </action>
+  <action id="Git.Unstash">
+    <keyboard-shortcut first-keystroke="shift ctrl s" />
   </action>
   <action id="GoFmtFileAction" />
   <action id="GotoTest">
@@ -141,9 +144,7 @@
     <keyboard-shortcut first-keystroke="ctrl q" />
   </action>
   <action id="SelectNextOccurrence" />
-  <action id="ShelveChanges.UnshelveWithDialog">
-    <keyboard-shortcut first-keystroke="shift ctrl s" />
-  </action>
+  <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="ShowFilterPopup" />
   <action id="ShowReformatFileDialog">
     <keyboard-shortcut first-keystroke="shift meta alt l" />
