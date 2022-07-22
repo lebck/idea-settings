@@ -5,6 +5,7 @@
     <option name="regularExpressions" value="true" />
     <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.ts" />
     <mask>**/__generated__/*</mask>
     <mask>*.java</mask>
     <mask>*commands.ts</mask>
@@ -28,8 +29,8 @@
     <mask>*.go2</mask>
     <mask>*.md</mask>
     <mask>*.spec.ts</mask>
-    <mask>*.go</mask>
     <mask>*.html</mask>
+    <mask>*.go</mask>
     <mask>*.ts</mask>
   </component>
 </application>
