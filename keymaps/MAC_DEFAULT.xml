@@ -168,6 +168,9 @@
     <keyboard-shortcut first-keystroke="meta alt t" />
   </action>
   <action id="TodoViewGroupByFlattenPackage" />
+  <action id="TogglePresentationMode">
+    <keyboard-shortcut first-keystroke="alt p" />
+  </action>
   <action id="TypeHierarchy" />
   <action id="TypeHierarchyBase.BaseOnThisType" />
   <action id="UsageGrouping.FileStructure" />
