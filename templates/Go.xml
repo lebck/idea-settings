@@ -22,7 +22,7 @@
       <option name="GO_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="suite" value="&#10;type $TESTNAME$TestSuite struct {&#10;&#9;suite.Suite&#10;}&#10;&#10;func (t *$TESTNAME$TestSuite) SetupSuite() {&#10;&#10;}&#10;&#10;func (t *$TESTNAME$TestSuite) SetupTest() {&#10;}&#10;&#10;func (t *$TESTNAME$TestSuite) TearDownTest() {&#10;}&#10;&#10;func Test$TESTNAME$TestSuite(t *testing.T) {&#10;&#9;suite.Run(t, new(BusTestSuite))&#10;}&#10;&#10;func (t *$TESTNAME$TestSuite) TestExample() {&#10;&#10;}" description="" toReformat="false" toShortenFQNames="true">
+  <template name="suite" value="&#10;type $TESTNAME$TestSuite struct {&#10;&#9;suite.Suite&#10;}&#10;&#10;func (t *$TESTNAME$TestSuite) SetupSuite() {&#10;&#10;}&#10;&#10;func (t *$TESTNAME$TestSuite) SetupTest() {&#10;}&#10;&#10;func (t *$TESTNAME$TestSuite) TearDownTest() {&#10;}&#10;&#10;func Test$TESTNAME$TestSuite(t *testing.T) {&#10;&#9;suite.Run(t, new($TESTNAME$TestSuite))&#10;}&#10;&#10;func (t *$TESTNAME$TestSuite) TestExample() {&#10;&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="TESTNAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="GO" value="true" />
