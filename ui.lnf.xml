@@ -4,6 +4,7 @@
     <option name="EDITOR_TAB_LIMIT" value="8" />
     <option name="MAX_LOOKUP_LIST_HEIGHT" value="25" />
     <option name="MAX_LOOKUP_WIDTH2" value="950" />
+    <option name="OPEN_IN_PREVIEW_TAB_IF_POSSIBLE" value="true" />
     <option name="OPEN_TABS_AT_THE_END" value="true" />
     <option name="REUSE_NOT_MODIFIED_TABS" value="true" />
     <option name="SCROLL_TAB_LAYOUT_IN_EDITOR" value="false" />
