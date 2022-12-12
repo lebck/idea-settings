@@ -1,7 +1,7 @@
 <application>
   <component name="UISettings">
     <option name="CLOSE_NON_MODIFIED_FILES_FIRST" value="true" />
-    <option name="EDITOR_TAB_LIMIT" value="8" />
+    <option name="EDITOR_TAB_LIMIT" value="6" />
     <option name="MAX_LOOKUP_LIST_HEIGHT" value="25" />
     <option name="MAX_LOOKUP_WIDTH2" value="950" />
     <option name="OPEN_IN_PREVIEW_TAB_IF_POSSIBLE" value="true" />
