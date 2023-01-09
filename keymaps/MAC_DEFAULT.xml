@@ -155,6 +155,18 @@
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="shift meta alt right" />
   </action>
+  <action id="StepInto">
+    <keyboard-shortcut first-keystroke="f7" />
+    <keyboard-shortcut first-keystroke="shift alt down" />
+  </action>
+  <action id="StepOut">
+    <keyboard-shortcut first-keystroke="shift f8" />
+    <keyboard-shortcut first-keystroke="alt up" />
+  </action>
+  <action id="StepOver">
+    <keyboard-shortcut first-keystroke="f8" />
+    <keyboard-shortcut first-keystroke="alt down" />
+  </action>
   <action id="Stop">
     <keyboard-shortcut first-keystroke="ctrl t" />
   </action>
