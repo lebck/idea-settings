@@ -3,6 +3,8 @@
     <local-interpreter path="/usr/local/bin/node">
       <version-cache version="16.16.0" last-modified="1658298708532" />
     </local-interpreter>
-    <local-interpreter path="/usr/local/Cellar/node/14.4.0/bin/node" />
+    <local-interpreter path="/usr/local/Cellar/node/14.4.0/bin/node">
+      <version-cache last-modified="0" />
+    </local-interpreter>
   </component>
 </application>
