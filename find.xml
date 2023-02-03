@@ -3,31 +3,10 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <mask>**/__generated__/*</mask>
-    <mask>*.java</mask>
-    <mask>*commands.ts</mask>
-    <mask>*_spec*</mask>
-    <mask>*_test.go</mask>
-    <mask>*.spec.tsx</mask>
-    <mask>*.interface.ts</mask>
-    <mask>queries.ts</mask>
-    <mask>*.tsx</mask>
-    <mask>*.(ts|tsx)</mask>
-    <mask>*.ts,*.tsx</mask>
-    <mask>*.graphql</mask>
-    <mask>*_spec.ts</mask>
-    <mask>*.json</mask>
-    <mask>commands.ts</mask>
-    <mask>*.d.ts</mask>
-    <mask>*.proto</mask>
     <mask>*.css</mask>
+    <mask>*.html</mask>
     <mask>*.xml</mask>
     <mask>*.go2</mask>
-    <mask>*.md</mask>
-    <mask>*.spec.ts</mask>
-    <mask>*.scss</mask>
     <mask>*.go</mask>
-    <mask>*.html</mask>
-    <mask>*.ts</mask>
   </component>
 </application>
