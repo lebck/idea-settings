@@ -25,6 +25,7 @@
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="meta 7" />
   </action>
+  <action id="Console.TableResult.ColumnSortDesc" />
   <action id="Console.TableResult.EditFilterCriteria" />
   <action id="DatabaseView.FullTextSearch" />
   <action id="Debug">
@@ -32,12 +33,6 @@
   </action>
   <action id="Diff.ApplyLeftSide" />
   <action id="Diff.ApplyRightSide" />
-  <action id="EditorCloneCaretAbove">
-    <keyboard-shortcut first-keystroke="alt up" />
-  </action>
-  <action id="EditorCloneCaretBelow">
-    <keyboard-shortcut first-keystroke="alt down" />
-  </action>
   <action id="EditorLeft">
     <keyboard-shortcut first-keystroke="left" />
   </action>
@@ -82,12 +77,16 @@
   <action id="HippieBackwardCompletion" />
   <action id="Images.ShowThumbnails" />
   <action id="IntroduceField" />
+  <action id="List-selectFirstRow" />
+  <action id="List-selectLastRow" />
+  <action id="List-selectLastRowExtendSelection" />
   <action id="LocalHistory.ShowHistory">
     <keyboard-shortcut first-keystroke="shift ctrl h" />
   </action>
   <action id="MethodOverloadSwitchDown" />
   <action id="MethodOverloadSwitchUp" />
   <action id="MoveElementRight" />
+  <action id="MoveLineDown" />
   <action id="MoveTabDown">
     <keyboard-shortcut first-keystroke="shift ctrl meta down" />
   </action>
@@ -143,6 +142,9 @@
   <action id="SelectNextOccurrence" />
   <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="ShowFilterPopup" />
+  <action id="ShowNavBar">
+    <keyboard-shortcut first-keystroke="meta up" />
+  </action>
   <action id="ShowReformatFileDialog">
     <keyboard-shortcut first-keystroke="shift meta alt l" />
     <keyboard-shortcut first-keystroke="shift meta alt f" />
@@ -189,6 +191,7 @@
   <action id="Vcs.ShowTabbedFileHistory">
     <keyboard-shortcut first-keystroke="ctrl h" />
   </action>
+  <action id="XDebugger.MoveWatchDown" />
   <action id="android.deploy.ApplyChanges">
     <keyboard-shortcut first-keystroke="ctrl meta r" />
   </action>
