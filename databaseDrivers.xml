@@ -1,30 +1,24 @@
 <application>
   <component name="LocalDatabaseDriverManager" version="201">
-    <driver id="h2.unified">
-      <artifact id="H2" name="H2" use="true" version="1.4.200" />
-    </driver>
-    <driver id="mysql.8">
-      <artifact id="MySQL Connector/J 8" name="MySQL Connector/J 8" use="true" version="8.0.15" />
-    </driver>
     <driver id="sqlite.xerial">
-      <artifact id="Xerial SQLiteJDBC" name="Xerial SQLiteJDBC" use="true" version="3.39.2" />
-      <library>
-        <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.39.2/sqlite-jdbc-3.39.2.jar</url>
-      </library>
-    </driver>
-    <driver id="9c5e8a55-5948-4b27-a33d-f5a07f0691ef" name="db-auth driver" dialect="SQLite" driver-class="org.sqlite.JDBC" icon="AllIcons.Providers.Sqlite">
-      <url-template name="default" template="jdbc:sqlite:!(:memory:){file::identifier.sqlite}?" />
-      <url-template name="In-memory" template="jdbc:sqlite::memory:" />
-      <artifact id="Xerial SQLiteJDBC" name="Xerial SQLiteJDBC" use="true" version="3.38.0" />
-      <property name="enable_load_extension" value="true" />
+      <artifact id="Xerial SQLiteJDBC" name="Xerial SQLiteJDBC" use="true" version="3.40.1" />
       <library>
         <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.34.0/sqlite-jdbc-3.34.0.jar</url>
       </library>
     </driver>
-    <driver id="0b1469ae-bad1-42ae-b1b1-631f519b92aa" name="db-auth driver" dialect="SQLite" driver-class="org.sqlite.JDBC" icon="AllIcons.Providers.Sqlite">
+    <driver id="b4170325-eca7-482f-8bc4-dd88f9106530" name="db-device driver" dialect="SQLite" driver-class="org.sqlite.JDBC" icon="AllIcons.Providers.Sqlite">
       <url-template name="default" template="jdbc:sqlite:!(:memory:){file::identifier.sqlite}?" />
       <url-template name="In-memory" template="jdbc:sqlite::memory:" />
-      <artifact id="Xerial SQLiteJDBC" name="Xerial SQLiteJDBC" use="true" version="3.38.0" />
+      <artifact id="Xerial SQLiteJDBC" name="Xerial SQLiteJDBC" use="true" />
+      <property name="enable_load_extension" value="true" />
+      <library>
+        <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.38.0/sqlite-jdbc-3.38.0.jar</url>
+      </library>
+    </driver>
+    <driver id="eff609b5-da8a-42ff-aba9-883f8ee222ed" name="db-auth driver" dialect="SQLite" driver-class="org.sqlite.JDBC" icon="AllIcons.Providers.Sqlite">
+      <url-template name="default" template="jdbc:sqlite:!(:memory:){file::identifier.sqlite}?" />
+      <url-template name="In-memory" template="jdbc:sqlite::memory:" />
+      <artifact id="Xerial SQLiteJDBC" name="Xerial SQLiteJDBC" use="true" />
       <property name="enable_load_extension" value="true" />
       <library>
         <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.39.2/sqlite-jdbc-3.39.2.jar</url>
