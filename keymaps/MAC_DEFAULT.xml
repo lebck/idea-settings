@@ -125,6 +125,9 @@
   <action id="RunConfigurationAsAction_Run_2 - [frontend] serve_default_target">
     <keyboard-shortcut first-keystroke="ctrl f" />
   </action>
+  <action id="RunConfigurationAsAction_Run_Build for onDevice_default_target">
+    <keyboard-shortcut first-keystroke="shift ctrl meta b" />
+  </action>
   <action id="RunConfigurationAsAction_Run_[backend] serve_default_target">
     <keyboard-shortcut first-keystroke="ctrl b" />
   </action>
@@ -133,6 +136,9 @@
   </action>
   <action id="RunConfigurationAsAction_Run_[frontend] unit tests_default_target">
     <keyboard-shortcut first-keystroke="ctrl alt f" />
+  </action>
+  <action id="RunConfigurationAsAction_Run_fenxt_default_target">
+    <keyboard-shortcut first-keystroke="shift ctrl meta r" />
   </action>
   <action id="RunDashboard.Run" />
   <action id="RunDashboard.ShowConfigurations" />
