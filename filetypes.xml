@@ -13,7 +13,6 @@
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern=".env.dev" type="PLAIN_TEXT" />
       <mapping ext="lf" type="PLAIN_TEXT" />
-      <mapping ext="msa" type="PLAIN_TEXT" />
       <mapping ext="bench" type="PLAIN_TEXT" />
       <mapping ext="plantuml" type="PlantUML file" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
