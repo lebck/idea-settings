@@ -1,7 +1,7 @@
 <application>
   <component name="SshConfigs">
     <configs>
-      <sshConfig authType="PASSWORD" host="192.168.2.126" id="2b58e5ca-9d99-4000-a782-d8263c8a46ae" port="22" nameFormat="DESCRIPTIVE" username="pi" />
+      <sshConfig host="localhost" id="cc35eda6-8244-48f0-8568-573e6a33d3af" keyPath="$USER_HOME$/.orbstack/ssh/id_ed25519" port="32222" nameFormat="DESCRIPTIVE" username="leo.back@debian" useOpenSSHConfig="true" />
     </configs>
   </component>
 </application>
